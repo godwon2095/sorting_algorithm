@@ -16,15 +16,15 @@ public:
     int quick_sort(int left, int right); //quick sort, compare»Ωºˆ π›»Ø
     int merge_sort(int left, int right); //merge sort, compare»Ωºˆ π›»Ø
     
-    void copy_list(LE newList[], int n, int compare); //list∏¶ ∫πªÁ, compare ∫Øºˆ¥¬ «◊ªÛ 0¿∏∑Œ √ ±‚»≠
-    void print_list(int left, int right); //list∏¶ leftø°º≠ right±Ó¡ˆ∏∏ √‚∑¬
+    void copy_list(LE newList[], int n, int compare);
+    void print_list(int left, int right);
     
 private:
     void merge(LE keyList[], int left, int mid, int right); //merge
     int quickPartition(LE keyList[], int left, int right); //quick sort partition
     
-    LE *list; //¡§∑ƒ«“ µ•¿Ã≈Õ list
-    int num_compare; //≈∞ ∞™ ∫Ò±≥»∏ºˆ ƒ´øÓ∆Æ∏¶ ¿ß«— ∫Øºˆ
+    LE *list;
+    int num_compare;
 };
 
 #endif /* sorting_hpp */

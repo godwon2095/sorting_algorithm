@@ -12,9 +12,9 @@ public:
     Sorting(LE *original); //Constructor
     ~Sorting();
     
-    int insertion_sort(int n); //Insertion sort, compare»Ωºˆ π›»Ø
-    int quick_sort(int left, int right); //quick sort, compare»Ωºˆ π›»Ø
-    int merge_sort(int left, int right); //merge sort, compare»Ωºˆ π›»Ø
+    int insertion_sort(int n); //Insertion sort
+    int quick_sort(int left, int right); //quick sort
+    int merge_sort(int left, int right); //merge sort
     
     void copy_list(LE newList[], int n, int compare);
     void print_list(int left, int right);
